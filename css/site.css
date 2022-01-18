@@ -5,6 +5,23 @@
     --bm-secondary-color: #ff993b;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:var(--bm-primary-color);
+}
+
+.odd{
+    font-weight: 400;
+}
+
+.even{
+    font-weight: bold;
+}
+
 
 main>.container {
     padding: 60px 15px 0;
