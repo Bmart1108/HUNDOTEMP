@@ -44,7 +44,7 @@ function generateNumbers(start, end) {
 
 
     /*
-   pos=  0,1,2,3,4,5,6,7,8
+   pos=  0,1,2,3,4,5,6,7,8 
         [1,2,3,4,5,6,7,8,9]
 */
 
@@ -53,13 +53,12 @@ function generateNumbers(start, end) {
 function displayNumbers(numbers) {
 
     let templateRows = "";
-    let className="";
-    for (let index = 0; index < numbers.length; index ++) {
+    let className = "";
+    for (let index = 0; index < numbers.length; index++) {
 
-        if (index % 2 == 0){
+        if (index % 2 == 0) {
             className = "even";
-        }
-        else{
+        } else {
             className = "odd"
         }
         let row = `<tr><td class="${className}">${index}</td></tr>`;

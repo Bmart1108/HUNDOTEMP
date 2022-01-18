@@ -10,15 +10,15 @@ h2,
 h3,
 h4,
 h5,
-h6{
-    color:var(--bm-primary-color);
+h6 {
+    color: var(--bm-primary-color);
 }
 
-.odd{
+.odd {
     font-weight: 400;
 }
 
-.even{
+.even {
     font-weight: bold;
 }
 
@@ -37,43 +37,43 @@ main>.container {
 
 /*----CHECKBOX COLORS----*/
 
-.checklisticon{
-    color:var(--bm-secondary-color);
+.checklisticon {
+    color: var(--bm-secondary-color);
 }
 
 /*----ICON COLORS----*/
 
-.jsicon{
+.jsicon {
     color: #e2d304;
 }
 
-.bsicon{
+.bsicon {
     color: #800080;
 }
 
-.htmlicon{
+.htmlicon {
     color: #ff4500;
 }
 
-.cssicon{
+.cssicon {
     color: #0b52d6
 }
 
 /*----Button Styles override Bootstrap Styles----*/
-.btn-outline-primary{
+.btn-outline-primary {
     color: var(--bm-dark-color);
     border-color: var(--bm-secondary-color) !important;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:active,
-.btn-outline-primary:focus{
+.btn-outline-primary:focus {
     border-color: var(--bm-primary-color) !important;
     background-color: var(--bm-secondary-color);
- }
+}
 
 
-.btn-primary{
+.btn-primary {
     color: white !important;
     background-color: var(--bm-secondary-color) !important;
     border-color: var(--bm-secondary-color);
@@ -82,7 +82,7 @@ main>.container {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited,
-.btn-primary:focus{
+.btn-primary:focus {
     filter: brightness(1.1) !important;
     border-color: var(--bm-secondary-color);
 }
@@ -90,12 +90,13 @@ main>.container {
 
 
 /*----FOOTER STYLES----*/
-.footer{
+.footer {
     background-color: var(--bm-dark-color);
     padding-right: 1rem;
     color: var(--bm-light-color);
 
 }
+
 .sticky-footer {
     position: sticky;
     left: 0;
@@ -103,13 +104,13 @@ main>.container {
     width: 100%;
 }
 
-footer .social>a{
+footer .social>a {
     color: var(--bm-light-color);
     opacity: .75;
 
 }
 
-footer .social>a:hover{
-    color:var(--bm-secondary-color);
+footer .social>a:hover {
+    color: var(--bm-secondary-color);
     opacity: .90;
 }
