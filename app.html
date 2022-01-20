@@ -13,10 +13,13 @@
 
     <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
 
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/BMAPPTOUCHICON.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/BMFAVICON32x32.png">
+
 
     <!-- Custom CSS -->
     <link href="css/site.css" rel="stylesheet">
-    <link rel="icon" type="img/png" href="img/favicon-32x32.png">
+ 
 
 </head>
 
@@ -26,7 +29,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="app.html">
 
-                <img src="img/MspectreMark.svg" height="24" class="d-inline-block align-text-top">
+                <img src="img/" height="24" class="d-inline-block align-text-top">
                 Hundo
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -44,6 +47,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="code.html">The Code</a>
                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" aria-current="page" href="https://github.com/Bmart1108/HUNDOTEMP">My
+                             Repo</a>
+                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="https://bmartin-portfolio.netlify.app/">About</a>
                     </li>
@@ -73,15 +80,16 @@
                                 <label for="startValue" class="form-label">Start Value</label>
                                 <input id="startValue" name="startValue" type="number" class="form-control"
                                     placeholder="Start Value" value=0 aria-label="Start Value">
-                            </div>
-                            <div class="col">
-                                <label for="endValue" class="form-label">End Value</label>
-                                <input id="endValue" name="endValue" type="number" class="form-control"
-                                    placeholder="EndValue" value=100 aria-label="End Value">
-                            </div>
-                            <div class="col-12 d-flex justify-content-start justify-content-lg-end">
-                                <button id="btnSubmit" type="button" class=" btn btn-primary">Display The Hundo</button>
-                            </div>
+
+                                <div class="col">
+                                    <label for="endValue" class="form-label">End Value</label>
+                                    <input id="endValue" name="endValue" type="number" class="form-control"
+                                        placeholder="EndValue" value=100 aria-label="End Value">
+                                </div>
+                                <div class="col-12 d-flex justify-content-start justify-content-lg-end">
+                                    <button id="btnSubmit" type="button" class=" btn btn-primary">Display The
+                                        Hundo</button>
+                                </div>
                         </form>
                         <h2 class="mt-5 border-bottom border-3 border-dark">Results</h2>
                         <div class="table-responsive">
