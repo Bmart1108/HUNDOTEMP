@@ -1,9 +1,3 @@
-// display a message to the user
-function getValues() {
-    alert("Hello App");
-}
-
-
 //program entry point
 function getValues2() {
 
